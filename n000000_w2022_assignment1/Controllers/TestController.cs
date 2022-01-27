@@ -19,8 +19,8 @@ namespace n000000_w2022_assignment1.Controllers
         [Route("api/Test/Get1/{number}")]
         public int Get1(int number)
         {
-
-            return number-10;
+            int difference = number - 10;
+            return difference;
         }
 
         /// <summary>
